@@ -46,7 +46,7 @@ main {
 #hero {
   position: relative;
   height: 200px;
-  background-image: url(../images/About_Me.jfif);
+  background-image: url(./assets/About_Me.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 0;
@@ -68,14 +68,12 @@ main {
 }
 /* Create flexboxes for the sections, section heading to have right border, and create flex containers for content on the right side of the section */
 section {
-  display: flex;
+  min-height: 500px;
 }
 section h2 {
   padding: 30px;
   margin: 15px;
-  flex: 1 20%;
-  border-right: 5px solid black;
-  text-align: right;
+  text-align: center;
   font-size: 4.3em;
 }
 #about-me p {
@@ -89,8 +87,8 @@ section h2 {
   flex: 1 80%;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 30px;
+  row-gap: 20px;
   padding: 20px;
 }
 /* targetting applications for the proper layout with application 1 with being bigger than the other applications, cursor pointer is set when hovering over the images, application titles are in fixed position, and essential spacing between applications */
@@ -98,6 +96,8 @@ section h2 {
   border: 3px solid var(--turquoise);
   position: relative;
   overflow: hidden;
+  width: 45%;
+  height: 200px;
 }
 
 .application img {
@@ -109,20 +109,6 @@ section h2 {
   opacity: 0.3;
 }
 
-.application-1 {
-  flex-grow: 2;
-  width: 100%;
-  height: 60vh;
-}
-
-.application-2,
-.application-3,
-.application-4,
-.application-5 {
-  flex-grow: 1;
-  width: 45%;
-  height: 200px;
-}
 .application-title {
   position: absolute;
   background-color: var(--turquoise);
@@ -133,25 +119,37 @@ section h2 {
 .application-title p {
   margin: 0;
 }
-/* targetting contact-me to change color and bottom border for the contact links and essential spacing. */
-#contact-me li {
-  display: inline-block;
-  border-bottom: 5px solid blue;
-  margin: 0 25px;
+.red {
+  color: red;
 }
-#contact-me li a {
-  text-decoration: none;
-  color: blue;
-  font-size: 2em;
+/* targetting contact-me to change color and bottom border for the contact links and essential spacing. */
+input {
+  width: 45%;
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  background-color: var(--turquoise);
+  color: black;
 }
 /* targetting footer with background color and centering text */
 footer {
+  color: var(--turquoise);
   background-color: black;
-  color: white;
   text-align: center;
   font-size: 1.8em;
   padding: 5px;
+  padding-top: 10px;
   margin: 0;
+}
+footer a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
   section {
