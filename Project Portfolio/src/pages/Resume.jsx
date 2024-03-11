@@ -1,3 +1,4 @@
+import resume from "../assets/Wing_Choi__resume_v7.pdf";
 export default function Resume() {
   return (
     <section>
@@ -20,7 +21,7 @@ export default function Resume() {
         <li>React</li>
         <li>MERN</li>
       </ul>
-      <a href="./src/assets/Wing_Choi__resume_v7.png" target="blank">
+      <a href={resume} target="blank">
         Download Resume
       </a>
     </section>
