@@ -1,9 +1,10 @@
+// Importing necessary images for projects from the assets directory
 import CryptoCurrencyConverter from "../assets/CryptoCurrencyConverter.png";
 import NoteTaker from "../assets/NoteTaker.png";
 import TechBlogPost from "../assets/TechBlogPost.png";
 import VirtualBookShelf from "../assets/VirtualBookshelf.png";
 import AppsPortfolioInReact from "../assets/AppsPortfolioInReact.png";
-
+// Array containing data for each project in the portfolio
 const portfolioData = [
   {
     image: CryptoCurrencyConverter,

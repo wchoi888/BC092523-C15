@@ -1,5 +1,7 @@
+// Functional component for the About Me section
 export default function About() {
   return (
+    // Section for the About Me content with an id for easy navigation
     <section id="about-me">
       <h2>About Me</h2>
       <div className="container">

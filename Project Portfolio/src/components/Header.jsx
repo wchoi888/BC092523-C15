@@ -1,5 +1,7 @@
+// Importing necessary modules and components
 import NavTabs from "./NavTabs";
 import LinkedinPhoto from "../assets/LinkedIn-Photo.jpg";
+// Functional component for the header section
 export default function Header() {
   return (
     <>

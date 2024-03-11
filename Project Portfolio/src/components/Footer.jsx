@@ -1,5 +1,7 @@
+// Footer component
 export default function Footer() {
   return (
+    // Fragment to wrap footer content
     <>
       <footer>
         <a href="https://github.com/wchoi888" target="blank">

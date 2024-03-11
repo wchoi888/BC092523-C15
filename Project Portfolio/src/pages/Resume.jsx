@@ -1,6 +1,9 @@
+// Importing resume PDF file from the assets directory
 import resume from "../assets/Wing_Choi__resume_v7.pdf";
+// Functional component for Resume
 export default function Resume() {
   return (
+    // Section for the Resume content
     <section>
       <h1> Resume </h1>
       <h3> Technology Proficiencies</h3>
@@ -21,6 +24,7 @@ export default function Resume() {
         <li>React</li>
         <li>MERN</li>
       </ul>
+      {/* Link to download the resume PDF */}
       <a href={resume} target="blank">
         Download Resume
       </a>
