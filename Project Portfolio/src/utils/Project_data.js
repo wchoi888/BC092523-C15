@@ -37,7 +37,7 @@ const portfolioData = [
     image: AppsPortfolioInReact,
     name: "Applications Portfolio in React",
     github: "https://https://github.com/wchoi888/BC092523-C15",
-    link: "https://young-lake-53776-5ca5885c8205.herokuapp.com/",
+    link: "https://resilient-arithmetic-013576.netlify.app/",
     tech: "HTML/CSS/JavaScript/Express/React/Netlify",
   },
 ];
