@@ -20,7 +20,7 @@ export default function Resume() {
         <li>React</li>
         <li>MERN</li>
       </ul>
-      <a href="./src/assets/Wing_Choi__resume_v7.pdf" target="blank">
+      <a href="./src/assets/Wing_Choi__resume_v7.png" target="blank">
         Download Resume
       </a>
     </section>
